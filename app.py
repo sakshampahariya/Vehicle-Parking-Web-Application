@@ -105,6 +105,7 @@ def create_admin():
 
 @app.route("/")
 @app.route("/home")
+
 def home():
     pass
 
