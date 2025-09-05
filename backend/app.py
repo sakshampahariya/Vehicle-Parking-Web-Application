@@ -33,7 +33,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'pahariyascafe@gmail.com'  
-app.config['MAIL_PASSWORD'] = 'wxim bfnj bbhv makx'     
+app.config['MAIL_PASSWORD'] = 'your mail app pass here'     
 app.config['MAIL_DEFAULT_SENDER'] = 'pahariyascafe@gmail.com'
 
 # Celery configuration
