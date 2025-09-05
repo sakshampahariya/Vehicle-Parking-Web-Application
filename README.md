@@ -1,4 +1,3 @@
-# Modern-Application-Development-2
 # UrbanPark - Vehicle Parking Web Application
 
 UrbanPark is a modern, full-stack web application designed to streamline the process of finding and managing vehicle parking. It provides a user-friendly interface for vehicle owners to locate and reserve parking spots, and a comprehensive dashboard for administrators to manage the entire parking system.
@@ -42,26 +41,34 @@ UrbanPark is a modern, full-stack web application designed to streamline the pro
 
 1.  Navigate to the `backend` directory.
 2.  Install the required Python packages:
+
     ```bash
     pip install -r requirements.txt
     ```
-3.  Start the Flask development server:
-    ```bash
+    
+4.  Start the Flask development server:
+
+     ```bash
     flask run
     ```
+     
     The backend will be running at `http://localhost:5000`.
 
 ### Frontend Setup
 
 1.  Navigate to the `frontend` directory.
 2.  Install the npm dependencies:
+
     ```bash
     npm install
     ```
-3.  Start the Vue development server:
-    ```bash
+    
+4.  Start the Vue development server:
+
+     ```bash
     npm run serve
     ```
+     
     The frontend will be available at `http://localhost:8080`.
 
 ## Usage
@@ -72,7 +79,8 @@ UrbanPark is a modern, full-stack web application designed to streamline the pro
 - **User Account:** New users can register through the "Register" page.
 
 ## Project Structure
-`
+
+```bash
 /
 ├── backend/
 │   ├── app.py          # Main Flask application
@@ -87,4 +95,3 @@ UrbanPark is a modern, full-stack web application designed to streamline the pro
     │   └── main.js     # Main Vue application entrypoint
     ├── package.json
     └── ...
-`
